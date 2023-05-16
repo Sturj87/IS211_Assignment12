@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Add Quiz</title>
+  </head>
+  <body>
+    <h1>Add Quiz</h1>
+    <form action='/quiz/add' method="POST">
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject"><br>
+      <label for="questions">Questions:</label>
+      <textarea id="questions" name="questions"></textarea><br>
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date"><br>
+      <input type="submit" value="Add Quiz">
+    </form>
+  </body>
+</html>
